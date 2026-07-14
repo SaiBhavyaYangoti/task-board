@@ -73,3 +73,9 @@ Once your `.env` files are set up, the whole app can run as containers with one 
     docker compose up --build
 
 This starts MongoDB, the backend, and the frontend together, all connected.
+
+## Improvements
+
+* If two people drag the same task into different columns at almost the same time, whoever clicks last just quietly wins and the other person never finds out their change got erased.
+* If a task sits untouched for too long, its card could slowly change color as a gentle nudge that it is being ignored.
+* For things you repeat every week, like a report, you set it up once and the board just makes a fresh task automatically each time, no retyping it forever.

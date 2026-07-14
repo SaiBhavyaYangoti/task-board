@@ -73,7 +73,3 @@ Once your `.env` files are set up, the whole app can run as containers with one 
     docker compose up --build
 
 This starts MongoDB, the backend, and the frontend together, all connected.
-
-## License
-
-Personal project, free to use and adapt.
